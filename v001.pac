@@ -4,6 +4,6 @@ function FindProxyForURL(url, host)
  return "DIRECT";
  }
  else if (url.substring(0, 6) == "https:") {
- return "PROXY bj-cmcc.exp.home.jht.io:8080";
+ return "PROXY bj-cmcc.exp.home.jht.io:80";
  }
  }
